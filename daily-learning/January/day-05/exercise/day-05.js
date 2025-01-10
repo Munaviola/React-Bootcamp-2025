@@ -1,0 +1,1 @@
+const freeDay = 'Chilling'
