@@ -1,0 +1,1 @@
+const scriptingLanguage = 'As the name implies, JavaScript is a scripting language, that means you can execute code by opening up the consoleinto a browser dev tools to run some code that changes the appearace of a website at any time and it is interpreted line by line';
