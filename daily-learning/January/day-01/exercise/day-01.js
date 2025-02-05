@@ -1,1 +1,1 @@
-const day01 = 'The first day of our class'
+const day01 = 'The first day of our class';
