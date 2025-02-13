@@ -10,3 +10,9 @@ const student ={
   for (const keys in student){
           console.log(keys + `: ` + student[keys]);
   }
+
+  const colors = [`Red`, `Green`, ` Blue`];
+
+  for(const color of colors) {
+    console.log(color);
+  }
