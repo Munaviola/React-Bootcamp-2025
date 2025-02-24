@@ -60,3 +60,10 @@ console.log(id === anotherId); // Represents a unique and immutable value, often
 // 3. Explain the difference between .map() and .forEach methods
 
 //The forEach() method does not returns a new array based on the given array. The map() method returns an entirely new array.
+
+// Create an rray of 10 fruits. Use .map() to return an array of their lengths
+
+const fruits = [`apple`, `banana`, `orange`, `kiwi`, `mango`, `watermelon`, `pineapple`, `cherry`, `pear`, `carrot`];
+const lengthOfFruits = fruits.map(fruits => fruits.length);
+
+console.log(lengthOfFruits);
