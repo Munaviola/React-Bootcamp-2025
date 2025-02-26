@@ -28,7 +28,7 @@ const person = {
   name: `Muna`,
   age: 25,
   gender: `Female`,
-  greet() {
+  greet: () => {
     console.log(`Hello, my name is ${this.name}. I am ${this.age} years old and I am ${this.gender}.`);
   }
 };
@@ -39,7 +39,7 @@ const car = {
   brand: `Tesla`,
   model: `model S`,
   year: 2023,
-  carInfo() {
+  carInfo: () => {
     return `This car is a ${this.year} ${this.brand} ${this.model}`;
   }
 };
